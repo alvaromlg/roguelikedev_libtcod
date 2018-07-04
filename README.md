@@ -1,4 +1,4 @@
-# Setup
+# Compile libtcod
 
 ```
  sudo apt-get install mercurial autoconf libsdl2-2.0 libsdl2-dev libtool
@@ -16,3 +16,8 @@ cp -dr build/autotools/.libs/libtcod.so* python/libtcodpy data/fonts/arial10x10.
 
 More info to how to install libtcod
 http://www.roguebasin.com/index.php?title=Complete_Roguelike_Tutorial,_using_python%2Blibtcod,_part_1
+
+# Run
+```
+python engine.py
+```
